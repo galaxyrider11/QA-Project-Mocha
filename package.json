@@ -1,0 +1,16 @@
+{
+  "name": "project-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "network.js",
+  "scripts": {
+    "bdd_test": "./node_modules/.bin/mocha -u bdd -R spec qa/bdd_railway.js",
+    "bdd_network": "./node_modules/.bin/mocha -u bdd -R spec qa/bdd_network.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0"
+  }
+}
